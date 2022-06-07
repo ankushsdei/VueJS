@@ -1,0 +1,27 @@
+@import "~vuetify/src/styles/main.sass";
+
+.v-picker--time,
+.v-picker--date {
+  .v-picker__title {
+    &.primary {
+      background-color: var(--primary);
+    }
+  }
+  .v-time-picker-clock__hand {
+    &.accent {
+      background-color: var(--primary);
+      &::before {
+        background: var(--primary);
+        border-color: var(--primary);
+        padding: 1rem;
+      }
+    }
+  }
+}
+.v-btn {
+  border: none;
+  outline: none !important;
+}
+.v-btn--active {
+  background: var(--primary);
+}

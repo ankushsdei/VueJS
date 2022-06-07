@@ -1,0 +1,29 @@
+$gender-female: #FF6A80;
+$gender-male: #A49FFF;
+$gender-other: #B2B2B2;
+$gender-female-light: transparentize($gender-female, 0.5);
+$gender-male-light: transparentize($gender-male, 0.5);
+$gender-other-light: transparentize($gender-other, 0.5);
+
+:root {
+  --gender-feamle: #{$gender-female};
+  --gender-male: #{$gender-male};
+  --gender-other: #{$gender-other};
+  --gender-feamle-light: #{$gender-female-light};
+  --gender-male-light: #{$gender-male-light};
+  --gender-other-light: #{$gender-other-light};
+}
+
+.text-gender-female { color: var(--gender-feamle) !important; }
+.text-gender-male { color: var(--gender-male) !important; }
+.text-gender-other { color: var(--gender-other) !important; }
+.text-gender-female-light { color: var(--gender-feamle-light) !important; }
+.text-gender-male-light { color: var(--gender-male-light) !important; }
+.text-gender-other-light { color: var(--gender-other-light) !important; }
+
+.bg-gender-female { background: var(--gender-feamle) !important; }
+.bg-gender-male { background: var(--gender-male) !important; }
+.bg-gender-other { background: var(--gender-other) !important; }
+.bg-gender-female-light { background: var(--gender-feamle-light) !important; }
+.bg-gender-male-light { background: var(--gender-male-light) !important; }
+.bg-gender-other-light { background: var(--gender-other-light) !important; }

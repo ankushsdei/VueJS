@@ -1,0 +1,272 @@
+@font-face {
+  font-family: "Tajawal";
+  src: url("../fonts/arabic-font/Tajawal-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  direction: rtl !important;
+  text-align: right !important;
+  font-family: "Tajawal" !important;
+}
+
+.list-group {
+  padding-inline-start: 0;
+}
+
+.sidebar .list-group-item.active::after {
+  right: -9px;
+  border-radius: 7px 0px 0px 7px;
+}
+
+.add-btn span:last-child {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.stats-container .border-box .count-box .count-label span:first-child {
+  text-align: right;
+}
+
+.stats-container .border-box .count-box .icon {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.stats-container .border-box .selection-one > img {
+  margin-right: 0px;
+  margin-left: 8px;
+}
+
+.login-section-btn {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.steps-bar ul li:before {
+  right: 35px;
+}
+
+.toggle-switch label {
+  margin-left: 10px;
+}
+
+.site-primary-btn {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+img.auth-img {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.role-filter-table .role-image-td p,
+.role-filter-table .table p,
+.role-filter-table table,
+.role-filter-table .table tbody td span {
+  text-align: right;
+}
+
+.action-toggle-detail {
+  display: flex !important;
+  align-items: center !important;
+}
+
+span.action-toggle-detail i.icon-detail-hide {
+  transform: rotate(180deg);
+}
+
+span.action-toggle-detail i {
+  margin-left: 5px;
+}
+
+ul.table-actions-wrapper.custom-table-actions-wrapper {
+  left: 62px;
+  right: auto !important;
+}
+
+ul.table-actions-wrapper.custom-table-actions-wrapper li label {
+  margin-right: 8px;
+  margin-left: 0;
+}
+
+.action-card.custom-action-card .official-details .field-row:first-child {
+  border-left: 1px solid #d0ddf4;
+  border-right: none;
+}
+
+.action-card.custom-action-card .official-details .field-row .border-icon {
+  margin-left: 10px;
+  margin-right: 0;
+}
+.slick-slide {
+  float: right !important;
+}
+.nav-sub-tabs .info-content-tab .info-icon-data:first-child {
+  margin-right: 20px;
+  margin-left: 0;
+}
+.nav-sub-tabs .info-content-tab .info-icon-data {
+  margin-right: 30px;
+  margin-left: 0;
+}
+.info-icon-data.custom-info-icon-data .big-icon,
+.info-icon-data.custom-info-icon-data img,
+.admin-account-icon-data .info-icon-data .account-icon-image {
+  right: -30px;
+  left: auto !important;
+}
+.comment-section .title span:last-child {
+  margin-right: 6px;
+  margin-left: 0;
+}
+.all-tabs.arrow-fix-design li i.innov-icon {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.all-tabs ul li:first-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.send-icon.set-location {
+  left: 25px;
+  right: auto !important;
+  transform: rotate(180deg);
+}
+.log-history-tab h2.main-heading1 img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.info-content-tab1 .info-icon-data1:before,
+.info-content-tab1 .info-icon-rule1:before,
+.info-icon-new-data:before {
+  right: -24px;
+  left: auto !important;
+  width: 27%;
+  height: 50px;
+}
+.role-filter-table .table thead th,
+.role-filter-table .table tbody th,
+.role-filter-table .table tbody td,
+.created-role-dv h2 {
+  text-align: right;
+}
+
+.tabs-content h2 span i.fa {
+  margin-right: 0;
+  margin-left: 5px;
+  cursor: pointer;
+}
+ul {
+  padding-inline-start: 0px;
+}
+.nav-tabs li.nav-item.active:first-child a {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 25px !important;
+}
+.nav-tabs .nav-item.active a::after {
+  left: -20px;
+  right: auto;
+}
+.nav-tabs .nav-item:first-child:after {
+  left: -10px;
+  right: auto;
+}
+.profile-section img {
+  margin: 0 0 0 10px !important;
+}
+.sidemenu-tooltip {
+  right: 78px;
+  left: auto !important;
+}
+.sidemenu-tooltip::after {
+  right: auto !important;
+  left: 100%;
+  border-left-color: #623cea;
+  border-right-color: transparent !important;
+}
+.sidemenu-tooltip span {
+  padding: 10px !important;
+}
+.seperate-info span {
+  text-align: left !important;
+}
+.comment-section .show-comment .comment-user-bar .left .name {
+  margin-left: 10px !important;
+  margin-right: 10px;
+}
+.comment-section .show-comment .comment-user-bar .left .name > span:first-child,
+.created-image-role p,
+.description,
+.inner-p {
+  text-align: right !important;
+}
+.nav-tabs .nav-item.active a::before {
+  right: -20px;
+  left: auto !important;
+}
+.nav-tabs .nav-item.active:before {
+  right: -10px;
+  left: auto !important;
+}
+.nav-tabs .nav-item.active:after {
+  left: -10px;
+  right: auto !important;
+}
+.added-info .nav-tabs li:last-child .nav-link.active,
+.nav-tabs.slider-tabs .slick-track .slick-slide:last-child .nav-item.active a {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 25px !important;
+}
+.nav-tabs.slider-tabs .slick-track .slick-slide:first-child .nav-item.active a {
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 25px !important;
+}
+.icon-search {
+  margin-left: 0 !important;
+  transform: rotate(180deg);
+}
+.stats-container .clickable .border-box.inactive,
+.stats-container .clickable .border-box.inactive:hover {
+  border-right: 4px solid #da4336;
+  border-left: transparent !important;
+}
+.stats-container .border-box,
+.stats-container .border-box:hover {
+  border-right: 4px solid #3ba006;
+  border-left: none !important;
+}
+.stats-container .clickable .border-box.free,
+.stats-container .clickable .border-box.free:hover {
+  border-right: 4px solid #41c7db;
+  border-left: none !important;
+}
+.transport-dashboard-section .info-icon-data img.info-style-r-center {
+  right: -18px;
+  left: auto !important;
+}
+.nav-sub-tabs .info-content-tab .info-icon-data span:last-child,
+.content-with-image.content-no-image
+  .box-4
+  .inner-span-con:first-child
+  span:first-child {
+  text-align: left !important;
+}
+.content-with-image.content-no-image .info-icon-data i.custom-i {
+  right: -26px;
+  left: auto !important;
+}
+.box-4 .flex-outer .inner-span-con span:last-child,
+.box-4 .flex-outer .inner-span-con:last-child {
+  margin-right: 10px !important;
+  text-align: left;
+}
+.flex-outer .inner-span-con span:last-child {
+  margin-left: 10px;
+  margin-right: 0 !important;
+}

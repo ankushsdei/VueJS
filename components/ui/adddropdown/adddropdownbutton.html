@@ -1,0 +1,26 @@
+<!-- <div class="dropdown add-btn mb-2  float-right">
+  <span>{{ $t(title) }}</span>
+  <span class="add-btn-css dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img src="../../../assets/images/plus.svg" alt />
+  </span>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a @click="actionDo()" class="dropdown-item" >Add New Inventory</a>
+    <a @click="actionTrigger()" class="dropdown-item">Upload CSV File</a>
+  </div>
+</div>
+ -->
+
+<div class="add-btn mb-2  float-right">
+  <span>{{ $t(title) }}</span>
+  <span class="add-btn-css dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+    aria-expanded="false">
+    <img src="@/assets/images/plus.svg" alt />
+  </span>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" @click="actionDo(1,'WioT Hardwares')"><img src="@/assets/images/hardware-gry.svg"> WioT
+      Hardwares</a>
+    <a class="dropdown-item" @click="actionDo(0, 'Third party Hardwares')"><img src="@/assets/images/hardware-gry.svg">
+      Third party Hardwares</a>
+  </div>
+</div>
+</div>

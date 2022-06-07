@@ -1,0 +1,12 @@
+.has-anim {
+  display: inline-block;
+  transition: transform 0.2s linear;
+}
+@for $i from 0 through 360 {
+  .rotate-fs-45 {
+    transform: rotate($i * 0deg);
+  }
+  .rotate-fb-45 {
+    transform: rotate($i * -1deg);
+  }
+}

@@ -1,0 +1,9 @@
+.main-tab-slicked {
+  .slick-track {
+    display: block !important;
+    .slick-slide {
+      display: inline-block !important;
+      flex-shrink: 1;
+    }
+  }
+}

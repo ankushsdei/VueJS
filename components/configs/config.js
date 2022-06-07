@@ -1,0 +1,1 @@
+export const AssetPath = 'http://localhost:8000/'
